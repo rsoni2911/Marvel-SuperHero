@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: url('https://assets.vogue.in/photos/5ce412599cc0c0b8f5f9b4bf/4:3/w_1440,h_1080,c_limit/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    background-color: rgb(248, 102, 102);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    width: 100%;
+   
+
+}
+nav div {
+    font-size: 1.3rem;
+    display:flex;
+    flex-direction: column;
+    margin-right: 2%;
+    color: black;
+    font-weight: 600;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav div a{
+    text-decoration: none;
+    color: white;
+}
+
+nav div a:hover{
+    color:lightgrey;
+}
+
+
+.about-sec{
+    /* background-color: aliceblue; */
+    height: 100vh;
+    /* height: 100%; */
+    display: flex;
+    padding: 1%;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+#title{
+    background: rgb(237, 237, 136);
+    width: 70%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;    
+
+}
+.data-container{
+    margin-top: 1%;
+    border: 2px solid rgb(118, 117, 117);
+    height: 98%;
+    padding: 1%;
+    /* background-color: aquamarine; */
+
+}
+#info{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#img-cont{
+    height: 70%;
+    width: 40%;
+}
+
+#details{
+    width: 40%;
+    margin-left: 5%;
+    height: min-content;
+    padding: 5%;
+    font-size: 1.3rem;
+    background-color: rgba(255, 255, 255, 0.9);;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(71, 71, 71);
+}
+#details div{
+    margin: 1%;
+}
+#img-cont img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;;
+}

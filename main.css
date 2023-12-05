@@ -1,0 +1,172 @@
+
+body {
+    background-image: url('https://assets.vogue.in/photos/5ce412599cc0c0b8f5f9b4bf/4:3/w_1440,h_1080,c_limit/Everything-you-need-to-know-before-watching-Marvel-movies-this-year.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main nav {
+    display: flex;
+    color: aliceblue;
+    background: rgb(248, 102, 102);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    width: 100%;
+
+}
+
+.main nav span {
+    font-size: 1.3rem;
+    margin-right: 2%;
+    color: black;
+    font-weight: 600;
+}
+
+#favo a{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#searchbar input {
+    width: 60%;
+    padding-left: 10px;
+    height: 5vh;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(248, 102, 102) ;
+    font-size: 1.1rem;
+    background: rgb(248, 102, 102 , 0.4);
+}
+
+input::placeholder {
+    color: aliceblue;
+
+}
+
+#displayHeroSearchResults {
+    height: 100%;
+    overflow: scroll;
+    width: 90%;
+}
+
+.results::-webkit-scrollbar {
+    display: none;
+}
+
+#search-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#superhero-list {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content:space-evenly;
+}
+
+.hero-list::-webkit-scrollbar {
+    display: none;
+}
+
+.display-cards {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 60vh;
+    transition-duration: 0.3s;
+    margin-top: 4%;
+}
+.display-cards:hover{
+    width: 25%;
+    height: 70vh;
+}
+#querySection{
+color:white;
+font-weight: 150;
+}
+
+#superhero {
+    height: 90%;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: 'Georgia, serif';
+    background: rgb(201, 211, 241);
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+}
+
+#buttons {
+    font-family: 'georgia, sans-serif';
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+#img-cont {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-cont img {
+    width: 95%;
+    height: 95%;
+    
+}
+
+#buttons button {
+    color:white;
+   height: 80%;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background: rgb(130, 41, 255);
+}
